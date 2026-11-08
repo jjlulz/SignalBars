@@ -16,5 +16,5 @@ jobs:
         run: gmake package FINALPACKAGE=1
       - uses: actions/upload-artifact@v4
         with:
-          name: SixteenPlayer-deb
+          name: SignalBars-deb
           path: packages/*.deb
